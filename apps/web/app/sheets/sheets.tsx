@@ -13,6 +13,7 @@ export default async function Sheets() {
           <div key={sheet.id}>
             <p>Title:{sheet.title}</p>
             <p>Price{sheet.year}</p>
+            <p>cool</p>
           </div>
         ))}
       </div>
