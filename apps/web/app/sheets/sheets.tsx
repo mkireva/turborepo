@@ -12,7 +12,7 @@ export default async function Sheets() {
         {sheets.map((sheet) => (
           <div key={sheet.id}>
             <p>Title:{sheet.title}</p>
-            <p>Price{sheet.year}</p>
+            <p>Price{sheet.url}</p>
             <p>cool</p>
           </div>
         ))}
